@@ -19,6 +19,8 @@ function rockPaperScissors(player1, player2) {
    return rules [player1].includes(player2) ? "player1" : "player2"
 };
 
+console.log(rockPaperScissors())
+
 // Leave this code here for the automated tests
 module.exports = {
   rockPaperScissors,
